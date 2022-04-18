@@ -1,3 +1,16 @@
+// variable declarations
+// var buttonContent = getElementById("8am");
+
+// changeLock function
+//function changeLock() {
+    //buttonContent.textContent("&#128274");
+//}
+
+// event listener to change unlock to lock
+//button.addEventListener('click', changeLock());
+
+// moment class changer so that the color changes based on the current hour
+
 // to display the current date
 var currentDayEl = moment().format("dddd, MMMM Do");
 $("#currentDay").text(currentDayEl);
